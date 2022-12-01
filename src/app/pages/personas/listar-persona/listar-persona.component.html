@@ -1,0 +1,23 @@
+<p>listar-persona works!</p>
+<table>
+    <tr>
+
+       
+        <th>cedula</th>
+        <th>Nombre</th>
+        <th>fechaNacimiento</th>
+        <th>CargaFamiliar</th>
+
+    </tr>
+
+    <tr *ngFor="let p of persona | async">
+        <td>{{p.cedula}}</td>
+        <td>{{p.nombre}}</td>
+        <td>{{p.fnaci}}</td>
+        <td>{{p.cargaf}}</td>
+         
+
+    </tr>
+
+
+</table>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "prueba-426b4": {
+      "hosting": {
+        "prueba": [
+          "prueba-426b4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "prueba-426b4"
+  }
+}
